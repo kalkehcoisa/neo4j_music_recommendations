@@ -1,9 +1,10 @@
 # Recomendações Musicais com Neo4j
 
-Neste pequeno projecto simulo um pipeline completo para construir um grafo de músicas e calcular
-semelhanças entre elas utilizando o [Neo4j](https://neo4j.com/). Como não queria instalar o
-Neo4j na minha máquina, tudo é executado dentro de um container Docker; o script
-`neo4j-docker.sh` cuida dessa parte.
+Neste pequeno projeto simulo um pipeline completo para construir um grafo de músicas e calcular
+semelhanças entre elas utilizando o [Neo4j](https://neo4j.com/). Como o poder de processamento
+e limite de nós do Aura (200mil), acabou atrapalhando bastante, optei por usar Neo4j na minha
+máquina, de dentro de um container Docker; o script: [neo4j-docker.sh](./neo4j-docker.sh) cuida
+dessa parte. Mais detalhes sobre adiante.
 
 ## Estrutura do repositório
 
